@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #0a380b78;
+    color: #f0e5e5;
+    
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    a{
+        text-decoration: none;
+        color: inherit;
+        background-color: rgba(128, 128, 128, 0.37);
+        border-radius: 5px;
+    }
+    a:hover{
+        cursor: pointer;
+        color: rgba(127, 255, 212, 0.486);
+    }
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 90%;
+}
+.logoynombre{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}

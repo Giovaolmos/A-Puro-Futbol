@@ -1,0 +1,29 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+   
+}
+.divsCanchas{
+    display: flex;
+    
+    gap: 10px;
+    color: rgb(194, 187, 187);
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 10px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.img{
+    width: 300px;
+    height: 150px;
+}
+.title{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.p{
+    font-size: 25px;
+}

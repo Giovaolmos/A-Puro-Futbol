@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(237, 242, 237, 0.466);
+    margin-bottom: 10px;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+   
+}
+
+
+.active{
+color: rgb(22, 154, 22);
+
+}
+
+.cancelled{
+   color: red; 
+}
